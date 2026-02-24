@@ -1,0 +1,49 @@
+/* ===== LINKS SECTION ===== */
+
+.links {
+    padding: 80px 20px;
+    background: #e8e4e4;
+    text-align: center;
+    color: rgb(211, 41, 41);
+    background-image: url(../asset/bng.png);
+    background-size: cover;
+}
+
+.links-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.links h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.links p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #e60e0e;
+}
+
+/* Button Style */
+
+.consult-btn {
+    display: inline-block;
+    background: #f4c400;
+    color: #000;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.consult-btn:hover {
+    background: #ea4011;
+    transform: scale(1.05);
+}
+
+.calendar-icon {
+    margin-left: 8px;
+}

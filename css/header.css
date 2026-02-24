@@ -1,0 +1,79 @@
+.top-header {
+position: fixed;
+top: 0;
+left: 70px; /* default collapsed width */
+right: 0;
+height: 65px;
+background: #eceaea;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 25px;
+border-bottom: 1px solid #222;
+transition: 0.3s;
+z-index: 999;
+}
+.sidebar:not(.collapsed) ~ .top-header {
+left: 220px;
+}
+.left-section {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.menu-icon {
+cursor: pointer;
+font-size: 20px;
+}
+
+.logo-text {
+font-weight: bold;
+font-size: 18px;
+background: linear-gradient(45deg, #e5ab0b, #c74566);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.center-section input {
+padding: 7px 10px;
+background: #1a1a1a;
+border: 1px solid #333;
+color: rgb(88, 12, 193);
+}
+
+.center-section button {
+padding: 7px 12px;
+background: #f1582a;
+border: none;
+cursor: pointer;
+}
+
+.right-section {
+display: flex;
+align-items: center;
+gap: 15px;
+color: black;
+}
+
+.profile-circle {
+width: 30px;
+height: 30px;
+background: #c86645;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: black;
+font-weight: bold;
+}
+
+
+/* mobile */
+@media(max-width:768px){
+
+.menu-btn{
+display:block;
+}
+
+}

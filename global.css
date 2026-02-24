@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 40px;
+    transition: 0.3s;
+}

@@ -1,0 +1,148 @@
+.hero {
+text-align: center;
+padding-top: 100px;
+background: linear-gradient(to right, #d4b2b2, #d2b8b8);
+background-image: url('../asset/Best-Exterior-Design-Ideas-for-an-Indian-Home.jpg') ;
+background-color: rgb(221, 220, 212);
+background-repeat: no-repeat;
+margin: 0;
+}
+
+    .hero h1 {
+    font-size: 40px;
+    color: #f4c430;
+}
+#projects {
+    background-image: url(../asset/rendering-revit-drawings-3d.jpg);
+    background-repeat: round;
+}
+
+.hero-btn {
+margin-top: 20px;
+padding: 10px 20px;
+background: #858175;
+border: none;
+cursor: pointer;
+font-weight: bold;
+} 
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background: gold;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section {
+    margin: 0;
+    padding: 60px 40px;
+    text-align: center;
+    
+}
+
+.dark {
+    background: #756c6c;
+    margin-top: 0;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgb(236, 57, 57);
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.writing-about {
+    background: #e5e3dd;
+    padding: 40px;
+    text-align: center;
+    color: black;
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    left: 5px; /* change to right:25px if you want right side */
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+
+.whatsapp-float img {
+    width: 30px;
+    height: 30px;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* tablet */
+@media(max-width:992px){
+
+.hero-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+/* mobile */
+@media(max-width:768px){
+
+.hero-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.hero h1{
+font-size:24px;
+}
+
+}

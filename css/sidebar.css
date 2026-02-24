@@ -1,0 +1,62 @@
+.sidebar {
+position: fixed;
+top: 0;
+left: 0;
+width: 220px;
+height: 100vh;
+background: #f3efef;
+transition: 0.3s;
+overflow: hidden;
+padding-top: 15px;
+}
+
+.sidebar.collapsed {
+width: 70px;
+}
+
+.toggle-btn {
+padding: 15px;
+cursor: pointer;
+color: rgb(14, 15, 13);
+font-size: 20px;
+text-align: center;
+}
+
+.menu {
+list-style: none;
+padding: 0;
+margin-top: 20px;
+}
+
+.menu li {
+padding: 15px 20px;
+cursor: pointer;
+transition: 0.3s;
+display: flex;
+align-items: center;
+gap: 10px;
+color: orangered;
+}
+
+.menu li:hover {
+background: #070202;
+}
+
+.sidebar.collapsed span {
+display: none;
+}
+
+
+/* mobile */
+@media(max-width:768px){
+
+.sidebar{
+
+left:-220px;
+
+}
+
+.sidebar.active{
+left:0;
+}
+}

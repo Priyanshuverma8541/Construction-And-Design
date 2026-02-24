@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f3f3;
+    color: white;
+}
+
+.main-wrapper {
+margin-left: 70px;
+transition: 0.3s;
+}
+
+.sidebar:not(.collapsed) ~ .main-wrapper {
+margin-left: 220px;
+}
+
