@@ -67,13 +67,3 @@ justify-content: center;
 color: black;
 font-weight: bold;
 }
-
-
-/* mobile */
-@media(max-width:768px){
-
-.menu-btn{
-display:block;
-}
-
-}

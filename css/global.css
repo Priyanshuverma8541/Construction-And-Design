@@ -13,4 +13,3 @@ transition: 0.3s;
 .sidebar:not(.collapsed) ~ .main-wrapper {
 margin-left: 220px;
 }
-

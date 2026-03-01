@@ -117,32 +117,3 @@ footer {
 .whatsapp-float:hover {
     transform: scale(1.1);
 }
-
-
-
-/* tablet */
-@media(max-width:992px){
-
-.hero-grid{
-
-grid-template-columns:repeat(2,1fr);
-
-}
-
-}
-
-
-/* mobile */
-@media(max-width:768px){
-
-.hero-grid{
-
-grid-template-columns:1fr;
-
-}
-
-.hero h1{
-font-size:24px;
-}
-
-}

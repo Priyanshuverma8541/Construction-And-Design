@@ -35,7 +35,7 @@ transition: 0.3s;
 display: flex;
 align-items: center;
 gap: 10px;
-color: orangered;
+color: rgb(16, 15, 14);
 }
 
 .menu li:hover {
@@ -44,19 +44,4 @@ background: #070202;
 
 .sidebar.collapsed span {
 display: none;
-}
-
-
-/* mobile */
-@media(max-width:768px){
-
-.sidebar{
-
-left:-220px;
-
-}
-
-.sidebar.active{
-left:0;
-}
 }
